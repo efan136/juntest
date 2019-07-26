@@ -1,5 +1,4 @@
 # juntest
-this lil test made for juniors at php+html+css+javascript
 
 ### PHP
 
