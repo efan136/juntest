@@ -245,16 +245,14 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="toast-body"></div>
+            <div class="toast-body">
+                <p class="toast-body__message"></p>
+            </div>
         </div>
     </div>
-    <script>
-        var toastBody = document.querySelector('.toast-body');
-        var message = document.createElement('p');
+        <script>
+        var message = document.querySelector('.toast-body__message');
         var count = 0;
-
-        message.classList.add('toast-body');
-        toastBody.appendChild(message);
         addEventListener("click", function() { 
             count++;
             message.textContent = 'вы кликнули ' + count + ' раз'; 
